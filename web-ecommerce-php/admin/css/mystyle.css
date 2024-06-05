@@ -1,0 +1,113 @@
+/* Mengatur gambar logo */
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+/* Mengatur sidebar */
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 70px; /* Adjust padding-top to account for fixed navbar */
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #495057;
+    border: 1px solid #343a40;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+.sidebar .nav-link .fa {
+    margin-right: 8px;
+}
+
+/* Mengatur konten utama */
+#page-wrapper {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+    padding-top: 70px; /* Adjust padding-top to account for fixed navbar */
+}
+
+/* Navbar top */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-left: 15px;
+}
+
+/* Tombol Logout */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Menambahkan jarak antara navbar dan konten */
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+/* Styling untuk halaman login */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: 1px solid #343a40;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.input-group-text {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid #343a40;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #495057;
+}

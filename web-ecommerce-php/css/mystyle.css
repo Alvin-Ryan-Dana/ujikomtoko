@@ -1,0 +1,191 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    font-family: 'Roboto', sans-serif; /* Mengatur font utama */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-color: #f4f4f4; /* Mengatur warna latar belakang halaman */
+}
+
+/* Mengatur lebar maksimum dan margin otomatis untuk elemen container */
+.container {
+    max-width: 1200px; /* Lebar maksimum */
+    margin: 20px auto; /* Margin atas-bawah 20px, margin kiri-kanan otomatis */
+}
+
+/* Mengatur gaya untuk elemen card */
+.card {
+    border-radius: 8px; /* Membulatkan sudut kartu */
+    border: 1px solid #ddd; /* Border abu-abu muda */
+}
+
+/* Mengatur gaya untuk gambar di dalam elemen card */
+.card-img-top {
+    border-top-left-radius: 8px; /* Membulatkan sudut kiri atas gambar */
+    border-top-right-radius: 8px; /* Membulatkan sudut kanan atas gambar */
+    width: 100%; /* Adjust the image size */
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+}
+
+/* Mengatur gaya untuk tubuh kartu (bagian konten) */
+.card-body {
+    text-align: center; /* Teks di tengah */
+}
+
+/* Mengatur gaya untuk judul kartu */
+.card-title {
+    font-size: 18px; /* Ukuran font judul kartu */
+    margin-bottom: 15px; /* Margin bawah judul kartu */
+}
+
+/* Mengatur gaya untuk teks di dalam kartu */
+.card-text {
+    font-size: 16px; /* Ukuran font teks */
+    margin-bottom: 15px; /* Margin bawah teks */
+}
+
+/* Mengatur gaya tombol primer */
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang biru */
+    border-color: #007bff; /* Warna border biru */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang biru tua saat hover */
+    border-color: #0056b3; /* Warna border biru tua saat hover */
+}
+
+/* Mengatur gaya tombol sekunder */
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang abu-abu */
+    border-color: #6c757d; /* Warna border abu-abu */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Warna latar belakang abu-abu tua saat hover */
+    border-color: #545b62; /* Warna border abu-abu tua saat hover */
+}
+
+/* Mengatur gaya untuk link di dalam navbar saat menggunakan tema gelap */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8); /* Warna teks putih dengan transparansi 80% */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white; /* Warna teks putih saat hover */
+}
+
+/* Mengatur gaya untuk heading di dalam konten */
+.konten h1 {
+    text-align: center; /* Teks di tengah */
+    margin-bottom: 40px; /* Margin bawah 40px */
+    font-size: 36px; /* Ukuran font 36px */
+}
+
+/* Mengatur gaya untuk elemen card, diulang untuk memastikan konsistensi */
+.card {
+    margin-top: 50px; /* Margin atas 50px */
+    border-radius: 8px; /* Membulatkan sudut kartu */
+    border: 1px solid #ddd; /* Border abu-abu muda */
+}
+
+/* Mengatur gaya untuk header kartu */
+.card-header {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    border-bottom: 1px solid #ddd; /* Border bawah abu-abu muda */
+    text-align: center; /* Teks di tengah */
+}
+
+/* Mengatur gaya untuk judul kartu dalam header */
+.card-title {
+    margin-bottom: 0; /* Menghilangkan margin bawah */
+    font-size: 18px; /* Ukuran font 18px */
+}
+
+/* Mengatur gaya untuk tombol */
+.btn {
+    display: block; /* Mengatur tombol sebagai blok */
+    width: 100%; /* Lebar tombol 100% dari elemen induk */
+}
+
+.btn-login {
+    font-size: 0.9rem; /* Adjust the button size */
+    padding: 0.5rem 1rem;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+    justify-content: center; /* Center align the buttons */
+}
+
+
+
+/* Custom styling for the form elements */
+/* Mengatur gaya khusus untuk elemen formulir */
+.form-label {
+    font-weight: bold; /* Teks tebal untuk label */
+}
+
+.form-control {
+    margin-bottom: 10px; /* Margin bawah 10px untuk elemen formulir */
+}
+
+/* Mengatur gaya untuk judul kartu (teks h3) di dalam kartu */
+h3.card-title {
+    margin-bottom: 0; /* Menghilangkan margin bawah */
+}
+
+/* Big Banner Customization */
+/* Mengatur gaya untuk elemen big banner */
+.big-banner {
+    background-color: #343a40; /* Warna latar belakang abu-abu gelap */
+    color: white; /* Warna teks putih */
+    padding: 100px 0; /* Padding atas-bawah 100px, kiri-kanan 0 */
+    text-align: center; /* Teks di tengah */
+}
+
+/* Mengatur gaya untuk heading di dalam big banner */
+.big-banner h1 {
+    font-size: 48px; /* Ukuran font 48px */
+    margin-bottom: 20px; /* Margin bawah 20px */
+}
+
+/* Mengatur gaya untuk tombol di dalam big banner */
+.big-banner .btn-register {
+    margin: 10px; /* Margin semua sisi 10px */
+}
+
+/* Feature Customization */
+/* Mengatur gaya untuk elemen fitur */
+.feature {
+    padding: 50px 0; /* Padding atas-bawah 50px, kiri-kanan 0 */
+    background-color: #fff; /* Warna latar belakang putih */
+}
+
+/* Mengatur gaya untuk kolom di dalam elemen fitur */
+.feature .col-3 {
+    text-align: center; /* Teks di tengah */
+    padding: 20px; /* Padding semua sisi 20px */
+}
+
+/* Mengatur gaya untuk gambar di dalam elemen fitur */
+.feature img {
+    max-width: 100px; /* Lebar maksimum gambar 100px */
+    margin-bottom: 20px; /* Margin bawah 20px */
+}
+
+/* Mengatur gaya untuk heading (h3) di dalam elemen fitur */
+.feature h3 {
+    font-size: 24px; /* Ukuran font 24px */
+    margin-bottom: 10px; /* Margin bawah 10px */
+}
+
+/* Mengatur gaya untuk paragraf di dalam elemen fitur */
+.feature p {
+    font-size: 16px; /* Ukuran font 16px */
+    color: #666; /* Warna teks abu-abu */
+}
