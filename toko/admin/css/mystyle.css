@@ -1,0 +1,75 @@
+/* Mengatur sidebar */
+.sidebar {
+    background-color: #343a40; /* Warna latar belakang sidebar */
+    padding: 15px; /* Padding untuk konten di dalam sidebar */
+    min-height: 100%; /* Set tinggi minimum agar sidebar mengisi tinggi layar */
+    position: fixed; /* Membuat sidebar tetap di posisi tetap ketika di-scroll */
+    top: 0; /* Jarak dari atas layar */
+    left: 0; /* Jarak dari kiri layar */
+    width: 200px; /* Lebar sidebar */
+    padding-top: 70px; /* Menyesuaikan padding atas untuk mengakomodasi navbar fixed */
+}
+
+.sidebar .nav-link {
+    color: white; /* Warna teks tautan */
+    padding: 10px 15px; /* Padding untuk tautan */
+    border-radius: 4px; /* Membuat sudut melengkung pada tautan */
+    margin-bottom: 10px; /* Jarak antara tautan */
+    background-color: #495057; /* Warna latar belakang tautan */
+    border: 1px solid #343a40; /* Garis tepi tautan */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #6c757d; /* Warna latar belakang saat tautan dihover */
+    border: 1px solid #6c757d; /* Warna garis tepi saat tautan dihover */
+}
+
+/* Mengatur konten utama */
+#page-wrapper {
+    margin-left: 200px; /* Menggeser konten utama sejauh lebar sidebar */
+    padding: 20px; /* Padding untuk konten utama */
+    background-color: #fff; /* Warna latar belakang konten utama */
+    min-height: 100%; /* Set tinggi minimum agar konten mengisi tinggi layar */
+    padding-top: 70px; /* Menyesuaikan padding atas untuk mengakomodasi navbar fixed */
+}
+
+/* Navbar top */
+.navbar {
+    margin-bottom: 0; /* Menghilangkan margin bawah pada navbar */
+}
+
+/* Tombol Logout */
+.btn-danger {
+    background-color: #dc3545; /* Warna latar belakang tombol logout */
+    border-color: #dc3545; /* Warna garis tepi tombol logout */
+    border: none; /* Menghilangkan garis tepi */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Warna latar belakang saat tombol logout dihover */
+    border-color: #bd2130; /* Warna garis tepi saat tombol logout dihover */
+}
+
+/* Styling untuk halaman login */
+.card {
+    border-radius: 8px; /* Membuat sudut melengkung pada kotak kartu */
+}
+
+.card-header {
+    background-color: #343a40; /* Warna latar belakang header kartu */
+    color: white; /* Warna teks header kartu */
+}
+
+.card-body {
+    padding: 20px; /* Padding untuk isi kartu */
+}
+
+/* Tombol tambah */
+.btn-primary {
+    background-color: #343a40; /* Warna latar belakang tombol tambah */
+    border: none; /* Menghilangkan garis tepi */
+}
+
+.btn-primary:hover {
+    background-color: #495057; /* Warna latar belakang saat tombol tambah dihover */
+}
